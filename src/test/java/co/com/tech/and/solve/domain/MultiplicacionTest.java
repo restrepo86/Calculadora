@@ -12,4 +12,6 @@ public class MultiplicacionTest {
         double resultado = multiplicacion.ejecutar(2, 3);
         assertEquals(6, resultado, 0.000001);
     }
+
+
 }
