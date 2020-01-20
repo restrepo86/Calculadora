@@ -21,6 +21,7 @@ public class CalculadoraTest {
 		double resultado = calculadora.ejecutarOperacion(3, 1.2, "RESTA");
 		assertEquals(1.8, resultado, DELTA);
 	}
+	
 
 
 
