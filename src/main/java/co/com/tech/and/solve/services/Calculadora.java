@@ -12,11 +12,13 @@ public class Calculadora {
 	private Suma suma = new Suma();
 	private Resta resta = new Resta();
 
+
 	public double ejecutarOperacion(double numeroUno, double numeroDos, String tipoOperacion) {
 		
 		Map<String, IOperacion> operaciones = new HashMap<>();
 		operaciones.put("SUMA", suma);
 		operaciones.put("RESTA", resta);
+
 		
 		return operaciones.get(tipoOperacion).ejecutar(numeroUno, numeroDos); 
 		
