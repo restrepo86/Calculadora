@@ -5,9 +5,9 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class CalculadoraTest {
-	
+
 	private static final double DELTA = 0.0001;
-	
+
 	private Calculadora calculadora = new Calculadora();
 
 	@Test
@@ -15,7 +15,7 @@ public class CalculadoraTest {
 		double resultado = calculadora.ejecutarOperacion(1, 2, "SUMA");
 		assertEquals(3, resultado, DELTA);
 	}
-	
+
 	@Test
 	public void debeEjecutarLaOperacionCorrespondienteResta() {
 		double resultado = calculadora.ejecutarOperacion(3, 1.2, "RESTA");
@@ -23,9 +23,9 @@ public class CalculadoraTest {
 	}
 
 	@Test
-	public void debeEjecutarLaOperacionCorrespondienteDivision(){
+	public void debeEjecutarLaOperacionCorrespondienteDivision() {
 		double resultado = calculadora.ejecutarOperacion(4, 2, "DIVISION");
-		assertEquals(2,resultado, DELTA);
+		assertEquals(2, resultado, DELTA);
 	}
 
 }
