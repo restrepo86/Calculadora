@@ -22,4 +22,10 @@ public class CalculadoraTest {
 		assertEquals(1.8, resultado, DELTA);
 	}
 
+	@Test
+	public void debeEjecutarLaOperacionCorrespondienteDivision(){
+		double resultado = calculadora.ejecutarOperacion(4, 2, "DIVISION");
+		assertEquals(2,resultado, DELTA);
+	}
+
 }

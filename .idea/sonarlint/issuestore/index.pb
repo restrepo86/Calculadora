@@ -11,3 +11,7 @@ q
 Asrc/test/java/co/com/tech/and/solve/services/CalculadoraTest.java,e\0\e0947e998afd008afc6effacce8693d8ab74bb1a
 m
 =src/main/java/co/com/tech/and/solve/services/Calculadora.java,3\e\3e0a51d371973faf1c82d953e68eaf09ed0b4ad1
+q
+Asrc/main/java/co/com/tech/and/solve/domain/OperacionDivision.java,c\c\cceea9a314866901139162b64cb1e1279313d59c
+l
+<src/test/java/co/com/tech/and/solve/domain/DivisionTest.java,c\2\c2dc79ef0b1a2c19aa8546273893d39ed088eed4
