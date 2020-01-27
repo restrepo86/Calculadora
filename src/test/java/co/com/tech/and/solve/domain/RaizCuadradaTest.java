@@ -23,6 +23,7 @@ public class RaizCuadradaTest {
 
     @Test
     public void debeLevantarExcepcionPorRaizDeNumeroNegativo(){
+        
         exception.expect(NumeroNegativoException.class);
         exception.expectMessage(Mensaje.RaizCuadrada.RAIZ_CUADRADA_DE_UN_NEGATIVO);
         double resultado =operacionRaiz.ejecutar(-1);
