@@ -9,3 +9,7 @@ l
 <src/main/java/co/com/tech/and/solve/domain/RaizCuadrada.java,d\a\dacbaac93c8fce8e4f939d531373c8da5d3bda84
 p
 @src/test/java/co/com/tech/and/solve/domain/RaizCuadradaTest.java,1\2\1284aac417d5a7faad1bfe0d47ad12654dd00606
+ƒ
+Ssrc/main/java/co/com/tech/and/solve/business/exception/NumeroNegativoException.java,f\8\f8e2490febefc04800d7ed3404848deb558f654d
+h
+8src/main/java/co/com/tech/and/solve/mensaje/Mensaje.java,5\3\5345704fc14892ee4d7ea0fc37d8ada0d30feac4

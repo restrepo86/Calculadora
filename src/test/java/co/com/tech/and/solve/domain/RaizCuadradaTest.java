@@ -12,21 +12,15 @@ public class RaizCuadradaTest {
 
     private IOperacionCientifica operacionRaiz= new RaizCuadrada();
 
-    @Rule
-    private ExpectedException exception;
-
     @Test
     public void debeHallarLaRaizCuadradaDeUnNumero() throws NumeroNegativoException {
         double resultado = operacionRaiz.ejecutar(4);
         assertEquals(2,resultado,0.0001);
     }
 
-    @Test
+    @Test(expected = NumeroNegativoException.class)
     public void debeLevantarExcepcionPorRaizDeNumeroNegativo() throws NumeroNegativoException {
-
-        exception.expect(NumeroNegativoException.class);
-        exception.expectMessage(Mensaje.RaizCuadrada.RAIZ_DE_UN_NEGATIVO);
-        double resultado =operacionRaiz.ejecutar(-1);
+        operacionRaiz.ejecutar(-1);
     }
 
 

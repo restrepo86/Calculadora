@@ -1,8 +1,8 @@
 package co.com.tech.and.solve.business.exception;
 
-public class NumeroNegativoException extends Exception {
+public class NumeroNegativoException extends CalculadoraException {
 
-    public NumeroNegativoException(String mensaje){
+     public NumeroNegativoException(String mensaje){
         super(mensaje);
     }
 }
