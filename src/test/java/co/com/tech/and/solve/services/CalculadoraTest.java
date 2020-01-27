@@ -21,5 +21,13 @@ public class CalculadoraTest {
 		double resultado = calculadora.ejecutarOperacion(3, 1.2, "RESTA");
 		assertEquals(1.8, resultado, DELTA);
 	}
+	@Test
+	public  void debeEjecutarLaOperacionCorrespondienteMultiplicacion()
+	{
+		double resultado = calculadora.ejecutarOperacion(2,3,"MULTIPLIACION");
+		assertEquals(6,resultado,DELTA);
+	}
+
+
 
 }
