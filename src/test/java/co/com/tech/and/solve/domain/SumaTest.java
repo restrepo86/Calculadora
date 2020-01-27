@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import co.com.tech.and.solve.domain.impl.Suma;
+
 public class SumaTest {
 	
 	private static final double DELTA = 0.0000001;

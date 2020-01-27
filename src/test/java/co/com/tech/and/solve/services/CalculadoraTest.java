@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import co.com.tech.and.solve.exceptions.BusinessExcetion;
+
 public class CalculadoraTest {
 	
 	private static final double DELTA = 0.0001;
@@ -22,4 +24,9 @@ public class CalculadoraTest {
 		assertEquals(1.8, resultado, DELTA);
 	}
 
+	@Test
+	public void debeEjecutarLaOperacionCorrespondienteFactorial() throws BusinessExcetion {
+		int resultado = calculadora.ejecutarOperacion(4, "FACTORIAL");
+		assertEquals(24, resultado);
+	}
 }

@@ -1,4 +1,6 @@
-package co.com.tech.and.solve.domain;
+package co.com.tech.and.solve.domain.impl;
+
+import co.com.tech.and.solve.domain.IOperacion;
 
 public class Resta implements IOperacion {
 

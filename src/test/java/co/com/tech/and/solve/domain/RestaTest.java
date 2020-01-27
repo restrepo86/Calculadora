@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import co.com.tech.and.solve.domain.impl.Resta;
+
 public class RestaTest {
 	
 	private static final double DELTA = 0.00001;
