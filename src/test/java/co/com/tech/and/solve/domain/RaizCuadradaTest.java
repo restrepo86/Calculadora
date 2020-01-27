@@ -1,6 +1,8 @@
 package co.com.tech.and.solve.domain;
 
 import co.com.tech.and.solve.business.exception.NumeroNegativoException;
+import co.com.tech.and.solve.mensaje.Mensaje;
+import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
@@ -10,6 +12,7 @@ public class RaizCuadradaTest {
 
     private IOperacionCientifica operacionRaiz= new RaizCuadrada();
 
+    @Rule
     private ExpectedException exception;
 
     @Test
